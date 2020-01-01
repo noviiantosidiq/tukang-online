@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "391010385269-q07jvs24d599d0g8mpvugrn8c9ica7t8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tukangonline",
+            "certificate_hash": "663a967bb593cc1ac933372343b415790aa9e91f"
+          }
+        },
+        {
           "client_id": "391010385269-i65v5g1aof9ipln4gbaev56gejtal0t5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
     <EditText
+        android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/kotak_rounded"
-        android:hint="Temukan tukangmu sekarang..."
         android:textSize="14sp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
@@ -20,4 +21,7 @@
         android:paddingBottom="10dp"
         android:paddingTop="15dp"/>
 
-</ScrollView>
+
+
+
+</LinearLayout>

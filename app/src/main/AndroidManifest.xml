@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tukangonline">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,10 +13,14 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".HomeActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:label="@string/title_activity_home"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
-            android:name=".DaftarActivity"
-            android:theme="@style/masukTheme" />
+            android:name=".login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".register"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/masukTheme">
@@ -24,9 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MasukActivity"
-            android:theme="@style/masukTheme" />
     </application>
 
 </manifest>
